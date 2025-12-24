@@ -1,25 +1,38 @@
 #include<iostream>
 using namespace std;
 int main() {
-  int a = 10;
-  int b = a++;
-  cout<< "b ="<<b << endl;
-  cout << "a ="<<a;
+  int a;
+  cin>>a;
+  int b; 
+  cin>>b;
+  int diffrence = a-b;
+ 
+  cout << "difference ="<<diffrence;
 
-  int c = 10;
-  int d = ++c;
-  cout<< "d ="<<d<< endl;
-  cout << "c ="<<c<<endl;
+  int c;
+  cin>>c;
+  int d; 
+  cin>>d;
+  int product = c*d;
+ 
+  cout << "product ="<<product;
 
-  int  p= 10;
-  int q = p--;
-  cout<< "q ="<<q << endl;
-  cout << "p ="<<p;
+  int e;
+  cin>>e;
+  int f; 
+  cin>>f;
+  int division= e/f;
+ 
+  cout << "division ="<<division;
 
-  int x = 10;
-  int y = ++x;
-  cout<< "y ="<<y << endl;
-  cout << "x ="<<x;
+  int x;
+  cin>>x;
+  int y; 
+  cin>>y;
+  int module= x%y;
+ 
+  cout << "Module="<<module;
+
 
 
     return 0;
