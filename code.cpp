@@ -1,13 +1,16 @@
 #include<iostream>
  using namespace std;
  int main(){
-  int n = 10;
- 
- for(int i =1; i<=n; i++){
-  cout<<i<<" ";
-  
- }
- cout<<endl;
- return 0;
- 
+  int n = 1;
+  int sum = 0;
+  while(n<=100){
+    if(n%2==0){
+      sum += n;
+    }
+    n++;
+    
   }
+  cout << "print even number:"<<sum<<endl;
+
+  return 0;
+}
