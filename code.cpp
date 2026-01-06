@@ -1,18 +1,22 @@
 #include<iostream>
  using namespace std;
  int main(){
- int n = 1;
- int sum = 0;
- while(n<=100){
-  if(n%3==0){
-    sum += n;
-  }
-  n++;
-  
- }
- cout<<"sum of divisible by 3="<<sum<<endl;
+ int n = 4; 
  
+ 
+ for(int i=0; i<n; i++){
+    char ch = 'A'+i;
+  
+    for(int j=0; j<=i; j++){
+        cout<<ch<<" ";
+        
+        
+       
 
+ }
+ cout<<endl;
+ }
+ 
  return 0;
 }
 
