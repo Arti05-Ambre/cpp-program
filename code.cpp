@@ -1,20 +1,25 @@
 #include<iostream>
  using namespace std;
  int main(){
- int n = 4; 
+ int n = 8; 
 
  
  for(int i=0; i<n ; i++){
  
-    for(int j=0; j<i; j++){
-        
+    for(int j=0; j<n-i-1; j++){
+        //spaces
         cout<<" ";
     }
-        
-        for(int j=0; j<n-i; j++ ){
-            cout<<i+1;
+    for(int j=1; j<=i+1; j++ ){
+        //numbers1
+            cout<<j;
+        }
+        for(int j=i; j>0; j--){
+            //numbers2
+            cout<<j;
         }
        
+        
  cout<<endl;
  }
 return 0;
