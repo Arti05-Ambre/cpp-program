@@ -1,51 +1,21 @@
 #include<iostream>
  using namespace std;
- int main(){
- int n = 4; 
-//upper part
- //left part
- for(int i=1; i<=n ; i++){//outer loop
- 
-    for(int j=1; j<=i; j++)//innner loop
+ int sumN( int n){
+   int sum = 0;
+  for(int i=1; i<=n; i++){
+   sum += i;
+  }
+  return sum;
+ }
     
-        cout<<"*";
-    
-    //spaces
-    for(int j=1; j<=2*(n-i); j++)
-        cout<<" ";
+ int main(){ 
+  cout<<"sum="<<sumN(100)<<endl; 
+  cout<<sumN(10)<<endl; 
+  cout<<sumN(50)<<endl; 
+  cout<<sumN(1000)<<endl; 
 
 
-    //right part
-    for(int j=1; j<=i; j++)//innner loop
-    
-        cout<<"*";
-   cout<<endl;
-    }
-   
-    
-//bottom part
 
-for(int i=n; i>=1; i--){//outer loop
- 
-    for(int j=1; j<=i; j++)//innner loop
-    
-        cout<<"*";
-    
-    //spaces
-    for(int j=1; j<=2*(n-i); j++)
-        cout<<" ";
-
-
-    
-    for(int j=1; j<=i; j++)//innner loop
-    
-        cout<<"*";
-        cout<<endl;
-   
-    }
-
-
- 
 return 0;
  }
  
