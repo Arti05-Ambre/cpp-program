@@ -1,18 +1,16 @@
 #include<iostream>
  using namespace std;
- int sumN( int n){
-   int sum = 0;
+ int fac( int n){
+   int fact = 1;
   for(int i=1; i<=n; i++){
-   sum += i;
+    fact *= i;
   }
-  return sum;
+  return fact;
  }
     
  int main(){ 
-  cout<<"sum="<<sumN(100)<<endl; 
-  cout<<sumN(10)<<endl; 
-  cout<<sumN(50)<<endl; 
-  cout<<sumN(1000)<<endl; 
+  cout<<"factorial of number ="<<fac(10)<<endl; 
+   
 
 
 
