@@ -1,14 +1,15 @@
 #include<iostream>
 using namespace std;
-int minoftwo(int a, int b){
-    if(a<b){
-        return a;
-    }else{
-        return b;
-    }
+int factofn(int n){
+   int fact = 1;
+   for(int i=1; i<=n; i++){
+    fact *= i;
+    
 
+   }
+return fact;
 }
 int main(){
-    cout<< minoftwo(34,67)<<endl;
+    cout<< "factotial is "<<factofn(5)<<endl;
     return 0;
 }
