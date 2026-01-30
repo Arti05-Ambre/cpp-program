@@ -1,15 +1,19 @@
 #include<iostream>
 using namespace std;
-int factofn(int n){
-   int fact = 1;
-   for(int i=1; i<=n; i++){
-    fact *= i;
-    
+int dectobinary(int decnum){
+   int ans = 0, pow=1;
+   while(decnum > 0){
+    int rem = decnum%2;
+     decnum /= 2;
+     ans +=(rem * pow);
+     pow *= 10;
 
    }
-return fact;
-}
+return ans;
+
+   }
 int main(){
-    cout<< "factotial is "<<factofn(5)<<endl;
+    int decnum = 50;
+    cout<<dectobinary(decnum)<<endl;
     return 0;
 }
