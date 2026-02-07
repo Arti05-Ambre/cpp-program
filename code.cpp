@@ -1,18 +1,22 @@
 #include<iostream>
-using namespace std;
-int binarytodec(int binnum){
-   int ans = 0, pow = 1;
-   while(binnum > 0){
-    int rem = binnum % 10;
-     ans += rem * pow;
-     binnum /= 10;
-     pow *= 2;
+ using namespace std;
+ int fac( int n){
+   int fact = 1;
+  for(int i=1; i<=n; i++){
+    fact *= i;
+  }
+  return fact;
+ }
+    
+ int main(){ 
+  cout<<"factorial of number ="<<fac(10)<<endl; 
+   
 
-   }
-return ans;
 
-   }
-int main(){
-    cout<<binarytodec(100101)<<endl;
-    return 0;
-}
+
+return 0;
+ }
+ 
+ 
+
+
