@@ -2,13 +2,15 @@
 using namespace std;
 
 int main(){
-   int size = 5;
-   int Marks[size];
-   for(int i=0; i<size; i++){
-    cin>>Marks[i];
+   int nums[]={1,34,56,78,90,-1,45,-6};
+   int size = 8;
+   int smallest;
+   for(int i=0; i<size; i++ ){
+     if (nums[i]<smallest){
+     smallest = nums[i];
    }
-   for(int i=0; i<size; i++){
-    cout<<Marks[i]<<endl;
-   }
+}
+
+   cout<<"samllest:"<<smallest <<endl;
 return 0;
 }
