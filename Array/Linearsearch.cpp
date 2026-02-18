@@ -13,7 +13,7 @@ int linearsearch(int arr[],int sz,int target){
 int main(){
     int arr[]={1,4,5,8,0,90,3,7};
     int sz= 8;
-    int target = 8;
+    int target = 5;
     cout<<linearsearch(arr,sz,target)<<endl;
     
 
