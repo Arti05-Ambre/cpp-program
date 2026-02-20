@@ -1,24 +1,22 @@
  #include<iostream>
  using namespace std;
  void reverse(int arr[],int size){
-    int start = 0;
-    int end = size-1;
+    int sum = 0;
+    int product = 1;
 
-    while(start<end){
-        swap(arr[start],arr[end]);
-        start++;
-        end--;
-
-    }
-
+  for(int i=0; i<size; i++){
+        sum +=arr[i];
+        product *= arr[i];
+        
  }
+ cout<<"sum of array is:"<<sum<<endl;
+ cout<<"product of array:"<<product<<endl;
+    }
  int main(){
     int arr[]={4,5,67,89,2,78,9};
     int size = 7;
     reverse(arr,size);
-    for(int i=0; i<size; i++){
-        cout<<arr[i]<<" ";
-    }
-    cout<<endl;
+
+   
     return 0;
  }
