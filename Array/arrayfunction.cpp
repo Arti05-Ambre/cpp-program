@@ -13,6 +13,8 @@ int main(){
  
  vec.pop_back();
  cout<<"Front value in array="<<vec.front()<<endl;
+ cout<<"back value in array="<<vec.back()<<endl;
+
 
  for(int val:vec){
     cout<<val<<endl;
