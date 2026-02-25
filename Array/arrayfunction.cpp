@@ -12,6 +12,7 @@ int main(){
  
  
  vec.pop_back();
+ cout<<"Front value in array="<<vec.front()<<endl;
 
  for(int val:vec){
     cout<<val<<endl;
