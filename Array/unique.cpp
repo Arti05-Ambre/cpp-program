@@ -3,10 +3,11 @@
 using namespace std;
 
 int main(){
-    int nums[] ={1,2,1,2,4};
+    int nums[] ={1,2,1,2,};
     int ans = 0;
     for(int vec : nums){
-        ans ^= ans;
+        ans ^= vec;
     }
-return ans;
+    cout<<"the unique number is:"<<ans<<endl;
+return 0;
 }
