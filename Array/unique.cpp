@@ -3,11 +3,13 @@
 using namespace std;
 
 int main(){
-    int nums[] ={1,2,1,2,};
-    int ans = 0;
-    for(int vec : nums){
-        ans ^= vec;
-    }
-    cout<<"the unique number is:"<<ans<<endl;
-return 0;
+   int arr[]={2,4,5,7,8,9};
+   int target = 9;
+for(int vec : arr){
+    if(arr[vec]==target);
+    return vec;
+}
+cout<<"targert is"<<target<<endl;
+return -1;
+
 }

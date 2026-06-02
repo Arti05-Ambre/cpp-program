@@ -1,13 +1,14 @@
 #include<iostream>
 using namespace std;
 int main(){
-int n = 4;
-for(int i=0; i<n; i++){
-    for(int j=j+i; j>0; j++){
-        cout<<j<<" ";
+int n = 5;
+int sum  = 0;
+int count = 1;
 
-    }
-cout<<endl;
+while(count <= n){
+    sum  += count;
+    count++;
 }
+    cout<<sum<<endl;
 return 0;
 }
