@@ -2,12 +2,8 @@
 using namespace std;
 
 int main() {
-    int num = 7;
-
-    if (num % 2 == 0)
-        cout << "Even";
-    else
-        cout << "Odd";
+    for (int i = 1; i <= 10; i++)
+        cout << i << endl;
 
     return 0;
 }
