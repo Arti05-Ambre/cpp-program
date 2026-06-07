@@ -2,12 +2,12 @@
 using namespace std;
 
 int main() {
-    int num = -5;
+    int num = 7;
 
-    if (num >= 0)
-        cout << "Positive";
+    if (num % 2 == 0)
+        cout << "Even";
     else
-        cout << "Negative";
+        cout << "Odd";
 
     return 0;
 }
