@@ -2,12 +2,12 @@
 using namespace std;
 
 int main() {
-    int marks = 45;
+    int a = 15, b = 20;
 
-    if (marks >= 40)
-        cout << "Pass";
+    if (a > b)
+        cout << a << " is larger";
     else
-        cout << "Fail";
+        cout << b << " is larger";
 
     return 0;
 }
