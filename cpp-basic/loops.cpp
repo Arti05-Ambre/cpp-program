@@ -2,10 +2,12 @@
 using namespace std;
 
 int main() {
-    for (int i = 1; i <= 20; i++) {
-        if (i % 2 == 0)
-            cout << i << endl;
-    }
+    int marks = 45;
+
+    if (marks >= 40)
+        cout << "Pass";
+    else
+        cout << "Fail";
 
     return 0;
 }
