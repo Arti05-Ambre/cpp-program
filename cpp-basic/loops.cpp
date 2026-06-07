@@ -1,17 +1,13 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-int main(){
-    int n = 45;
-    if(n<=18){
 
-        cout<<"You can vote"<<endl;
+int main() {
+    int num = -5;
 
-    }
-    else{
-        cout<<"Not eligible"<<endl;
-    }
+    if (num >= 0)
+        cout << "Positive";
+    else
+        cout << "Negative";
+
     return 0;
-
 }
-        
-
