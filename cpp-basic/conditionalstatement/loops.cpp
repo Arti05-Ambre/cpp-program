@@ -6,10 +6,10 @@ int main() {
     cout<<"Enter a ch"<<endl;
     cin >>ch;
 
-    if (ch >='A' && ch <='Z')
+    if (ch >=65 && ch <=90)
         cout << "Uppercase";
     else
-        cout  << "Lowercase";
+        cout  << " is larger";
 
     return 0;
 }
