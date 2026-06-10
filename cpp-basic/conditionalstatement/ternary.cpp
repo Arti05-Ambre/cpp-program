@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int n = 45;
-    cout<<(n>=0?"positive":"negative;")<<endl;
+    int ch  = 'A';
+    cout<<(ch>=65?"Uppercase":"lowercase;")<<endl;
 }
