@@ -2,14 +2,12 @@
 using namespace std;
 
 int main() {
-    char ch;
-    cout<<"Enter a ch"<<endl;
-    cin >>ch;
-
-    if (ch >=65 && ch <=90)
-        cout << "Uppercase";
-    else
-        cout  << " is larger";
+    int num= 36;
+    if(num/2==0){
+        cout<<"Number is divisible by 2"<<endl;
+    }else{
+        cout<<"Number is npt find in 2s table"<<endl;
+    }
 
     return 0;
 }
