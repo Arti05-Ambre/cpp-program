@@ -10,7 +10,7 @@
     
  int main(){ 
   cout<<"factorial of number ="<<fac(10)<<endl; 
-   
+    
 
 
 
