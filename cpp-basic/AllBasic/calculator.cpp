@@ -7,7 +7,7 @@ int main(){
     cin>>a;
 
     int b;
-    cout<<"Enter value of b"<<endl;   
+    cout<<"Enter value of b"<<endl;    
     cin >>b;
     cout<<"sum of tu number is:"<< a+b<<endl;
     cout<<"diff of two number is:"<<a-b<<endl;
