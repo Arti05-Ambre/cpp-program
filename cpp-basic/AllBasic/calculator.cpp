@@ -12,7 +12,7 @@ int main(){
     cout<<"sum of tu number is:"<< a+b<<endl;
     cout<<"diff of two number is:"<<a-b<<endl;
     cout<<"product of two number is:"<<a*b<<endl;
-    cout<<"Division of two number is:"<<a/b<<endl;
+    cout<<"Division of two number is:"<<a/b<<endl; 
     cout<<"Module of two number is:"<<a%b<<endl;
 
 }
