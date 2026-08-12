@@ -6,7 +6,7 @@ int main(){
     cout<<"Enter value of a"<<endl;
     cin>>a;
 
-    int b;
+    int b; 
     cout<<"Enter value of b"<<endl;    
     cin >>b;
     cout<<"sum of tu number is:"<< a+b<<endl;
