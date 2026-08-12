@@ -14,7 +14,7 @@ int main(){
     cout<<"product of two number is:"<<a*b<<endl; 
     cout<<"Division of two number is:"<<a/b<<endl; 
     cout<<"Module of two number is:"<<a%b<<endl;
-
+ 
 }
 
  
