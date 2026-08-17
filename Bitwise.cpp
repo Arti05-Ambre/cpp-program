@@ -12,3 +12,4 @@ cout << sizeof(long) <<endl;
  return 0;
 } 
  
+ 
