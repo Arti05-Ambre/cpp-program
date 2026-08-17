@@ -10,5 +10,5 @@ cout << sizeof(long) <<endl;
     cout <<sizeof(signed int)<<endl;
      cout <<sizeof(unsigned int)<<endl;
  return 0;
-}
+} 
  
